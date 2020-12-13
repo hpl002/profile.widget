@@ -1,10 +1,28 @@
-# Profile.widget
+# Übersicht Stacc widget
+> Forked from https://github.com/sammosna/profile.widget  
+An Übersicht widget that adds some much needed Stacc flair to your osx desktop.
 
-An Übersicht widget to see your profile picture right in the middle of your desktop.
+Requires Übersicht, which only supports osx :/
 
-## Usage
-Double click on the `get_profile.sh` file then refresh.
-If it says you cannot run it, just open your terminal, `cd` into the folder and run `chmod +x get_profile.sh` and then double click on that file.
 
-## Screenshots
-![Full screenshot](https://raw.githubusercontent.com/sammosna/profile.widget/master/screenshot_full.png)
+Substitute image with anything of your liking.  
+Same goes for css.
+
+[Defaults provided here]()
+
+
+ 
+
+
+## Screenshot
+![Full screenshot](ubersicht-stacc-example.png)
+
+## Install
+**install ubersicht**
+1. homebrew
+
+**clone repo**
+```bash
+# assuming your widgets are in the default Übersicht location
+$ git clone https://github.com/hpl002/profile.widget $HOME/Library/Application\ Support/Übersicht/widgets/ubersicht-stacc
+```
